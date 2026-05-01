@@ -32,11 +32,15 @@ export const Route = createRootRoute({
       { title: "Residencial Pacaembu — Casa de Repouso para Idosos em São Paulo" },
       { name: "description", content: "Casa de repouso no bairro Pacaembu, Zona Oeste de SP. 40 anos de experiência, enfermagem 24h, home care e estrutura 100% adaptada para idosos." },
       { name: "author", content: "Residencial Pacaembu" },
-      { property: "og:title", content: "Residencial Pacaembu — Casa de Repouso para Idosos" },
-      { property: "og:description", content: "Cuidado, respeito e carinho com 40 anos de experiência. Enfermagem 24h, home care e estrutura totalmente adaptada." },
+      { property: "og:title", content: "Residencial Pacaembu — Casa de Repouso para Idosos em São Paulo" },
+      { property: "og:description", content: "Casa de repouso no bairro Pacaembu, Zona Oeste de SP. 40 anos de experiência, enfermagem 24h, home care e estrutura 100% adaptada para idosos." },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Residencial Pacaembu — Casa de Repouso para Idosos em São Paulo" },
+      { name: "twitter:description", content: "Casa de repouso no bairro Pacaembu, Zona Oeste de SP. 40 anos de experiência, enfermagem 24h, home care e estrutura 100% adaptada para idosos." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2fae3239-de82-44d4-a08a-162c4f148431/id-preview-11198bb6--f1873df2-4633-4b3a-ba2f-a5c0ab6db7a9.lovable.app-1777676898847.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2fae3239-de82-44d4-a08a-162c4f148431/id-preview-11198bb6--f1873df2-4633-4b3a-ba2f-a5c0ab6db7a9.lovable.app-1777676898847.png" },
     ],
     links: [
       {
