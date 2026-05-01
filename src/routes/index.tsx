@@ -30,19 +30,24 @@ const FACEBOOK_URL = "https://www.facebook.com/Casaderepousopacaembu";
 
 const slides = [
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/071305.jpg",
+    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/home-03_Easy-Resize.com_-1024x574.jpg",
     title: "40 ANOS DE EXPERIÊNCIA",
     subtitle: "A família é sua... mas o carinho é nosso",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/21305.jpg",
+    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/enfer-03_Easy-Resize.com_-1024x574.jpg",
     title: "RESPEITO E CUIDADO",
     subtitle: "Acompanhamento diferenciado e profissionais especializados",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/31305.jpg",
+    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/recu-03_Easy-Resize.com_-1024x574.jpg",
     title: "ESTRUTURA ADAPTADA",
     subtitle: "100% adaptada para os nossos clientes",
+  },
+  {
+    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/car-03_Easy-Resize.com_-1024x574.jpg",
+    title: "CARINHO E ATENÇÃO",
+    subtitle: "Cuidado humano e individualizado",
   },
 ];
 
