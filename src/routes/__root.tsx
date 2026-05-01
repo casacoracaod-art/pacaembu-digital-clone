@@ -29,14 +29,14 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Residencial Pacaembu — Casa de Repouso para Idosos em São Paulo" },
+      { name: "description", content: "Casa de repouso no bairro Pacaembu, Zona Oeste de SP. 40 anos de experiência, enfermagem 24h, home care e estrutura 100% adaptada para idosos." },
+      { name: "author", content: "Residencial Pacaembu" },
+      { property: "og:title", content: "Residencial Pacaembu — Casa de Repouso para Idosos" },
+      { property: "og:description", content: "Cuidado, respeito e carinho com 40 anos de experiência. Enfermagem 24h, home care e estrutura totalmente adaptada." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:locale", content: "pt_BR" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
