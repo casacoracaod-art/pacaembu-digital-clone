@@ -30,7 +30,7 @@ const FACEBOOK_URL = "https://www.facebook.com/Casaderepousopacaembu";
 
 const slides = [
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/04/e7a53990-3bef-4dca-949d-dabe5057ec1f-1024x768.jpg",
+    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/071305.jpg",
     title: "40 ANOS DE EXPERIÊNCIA",
     subtitle: "A família é sua... mas o carinho é nosso",
   },
