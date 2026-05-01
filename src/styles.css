@@ -140,8 +140,56 @@
     border-color: var(--color-border);
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: "Open Sans", system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .section-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 800;
+    text-align: center;
+    color: var(--primary);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+  .section-title-dark {
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 800;
+    text-align: center;
+    color: oklch(0.3 0.02 240);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+  .leaf-divider {
+    width: 40px;
+    height: 4px;
+    margin: 1rem auto 2rem;
+    background: var(--primary);
+    border-radius: 2px;
+  }
+  .hero-gradient {
+    background: linear-gradient(135deg, oklch(0.71 0.11 195) 0%, oklch(0.6 0.1 195) 100%);
+  }
+  .fade-mask::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.55) 100%);
+    pointer-events: none;
   }
 }
