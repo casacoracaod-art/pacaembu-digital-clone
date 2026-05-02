@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
 });
 
 const LOGO =
-  "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/logo2-02.png";
+  "/images/logo2-02.png";
 
 const WHATSAPP_NUMBER = "5511981929799";
 const PHONE_FIXED = "1138715853";
@@ -30,22 +30,22 @@ const FACEBOOK_URL = "https://www.facebook.com/Casaderepousopacaembu";
 
 const slides = [
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/home-03_Easy-Resize.com_-1024x574.jpg",
+    img: "/images/home-03_Easy-Resize.com_-1024x574.jpg",
     title: "40 ANOS DE EXPERIÊNCIA",
     subtitle: "A família é sua... mas o carinho é nosso",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/enfer-03_Easy-Resize.com_-1024x574.jpg",
+    img: "/images/enfer-03_Easy-Resize.com_-1024x574.jpg",
     title: "RESPEITO E CUIDADO",
     subtitle: "Acompanhamento diferenciado e profissionais especializados",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/recu-03_Easy-Resize.com_-1024x574.jpg",
+    img: "/images/recu-03_Easy-Resize.com_-1024x574.jpg",
     title: "ESTRUTURA ADAPTADA",
     subtitle: "100% adaptada para os nossos clientes",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/car-03_Easy-Resize.com_-1024x574.jpg",
+    img: "/images/car-03_Easy-Resize.com_-1024x574.jpg",
     title: "CARINHO E ATENÇÃO",
     subtitle: "Cuidado humano e individualizado",
   },
@@ -53,51 +53,51 @@ const slides = [
 
 const diferenciais = [
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/21305.jpg",
+    img: "/images/21305.jpg",
     title: "Home Care",
     desc: "Perfeito ambiente com os melhores profissionais para recuperação pós operatório.",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/31305.jpg",
+    img: "/images/31305.jpg",
     title: "Enfermagem 24 horas",
     desc: "Todo o apoio físico e emocional, ajudando para maior conforto, prevenção de dores e identificação de problemas de maneira individualizada.",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/41305.jpg",
+    img: "/images/41305.jpg",
     title: "Acessibilidade",
     desc: "Sempre preocupados com o bem-estar e comodidade dos nossos hóspedes, o residencial está totalmente pronto e acessível.",
   },
 ];
 
 const estruturaImgs = [
-  { src: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/11305.jpg", caption: "Sala de estar" },
-  { src: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/51305.jpg", caption: "Entrada" },
-  { src: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/061305.jpg", caption: "Quartos" },
-  { src: "https://residencialpacaembu.com.br/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-09-at-15.33.45-1024x768.jpeg", caption: "Ambiente" },
-  { src: "https://residencialpacaembu.com.br/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-10-at-11.06.28-1024x768.jpeg", caption: "Áreas comuns" },
-  { src: "https://residencialpacaembu.com.br/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-09-at-15.32.53-4-1024x768.jpeg", caption: "Espaço de convivência" },
-  { src: "https://residencialpacaembu.com.br/wp-content/uploads/2019/04/087250b5-d321-4647-b329-b8994b75025a-1-1024x768.jpg", caption: "Jardim" },
-  { src: "https://residencialpacaembu.com.br/wp-content/uploads/2020/12/WhatsApp-Image-2020-12-09-at-15.35.02-2-1024x768.jpeg", caption: "Refeitório" },
+  { src: "/images/11305.jpg", caption: "Sala de estar" },
+  { src: "/images/51305.jpg", caption: "Entrada" },
+  { src: "/images/061305.jpg", caption: "Quartos" },
+  { src: "/images/WhatsApp-Image-2020-12-09-at-15.33.45-1024x768.jpeg", caption: "Ambiente" },
+  { src: "/images/WhatsApp-Image-2020-12-10-at-11.06.28-1024x768.jpeg", caption: "Áreas comuns" },
+  { src: "/images/WhatsApp-Image-2020-12-09-at-15.32.53-4-1024x768.jpeg", caption: "Espaço de convivência" },
+  { src: "/images/087250b5-d321-4647-b329-b8994b75025a-1-1024x768.jpg", caption: "Jardim" },
+  { src: "/images/WhatsApp-Image-2020-12-09-at-15.35.02-2-1024x768.jpeg", caption: "Refeitório" },
 ];
 
 const servicos = [
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/enfer-03_Easy-Resize.com_-1024x574.jpg",
+    img: "/images/enfer-03_Easy-Resize.com_-1024x574.jpg",
     title: "Enfermaria 24h/dia",
     desc: "Todo o apoio físico e emocional, ajudando para maior conforto, prevenção de dores, identificação de problemas de maneira individualizada com estudos clínicos e preventivos em tratamentos de feridas, úlceras e escaras.",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/recu-03_Easy-Resize.com_-1024x574.jpg",
+    img: "/images/recu-03_Easy-Resize.com_-1024x574.jpg",
     title: "Recuperação pós-hospitalar",
     desc: "Facilitando o retorno da pessoa da 3ª idade à vida ativa, assistindo todo o processo físico-psíquico direcionando ao melhor caminho possível.",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/car-03_Easy-Resize.com_-1024x574.jpg",
+    img: "/images/car-03_Easy-Resize.com_-1024x574.jpg",
     title: "Home Care",
     desc: "Perfeito ambiente com os melhores profissionais para recuperação pós operatório.",
   },
   {
-    img: "https://residencialpacaembu.com.br/wp-content/uploads/2019/05/home-03_Easy-Resize.com_-1024x574.jpg",
+    img: "/images/home-03_Easy-Resize.com_-1024x574.jpg",
     title: "Equipe multidisciplinar",
     desc: "Médicos, nutricionista, fisioterapeuta, terapeuta ocupacional e sessões de musicoterapia. Confiança, segurança e cuidados especiais com muito amor e carinho.",
   },
@@ -307,7 +307,7 @@ function QuemSomos() {
         <div className="leaf-divider" />
         <div className="grid items-center gap-10 md:grid-cols-2">
           <img
-            src="https://residencialpacaembu.com.br/wp-content/uploads/2019/05/071305.jpg"
+            src="/images/071305.jpg"
             alt="Quem somos"
             className="h-full w-full rounded-lg object-cover shadow-lg"
           />
