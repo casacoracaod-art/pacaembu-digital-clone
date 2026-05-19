@@ -9,6 +9,6 @@ import netlify from "@netlify/vite-plugin-tanstack-start";
 
 export default defineConfig({
   vite: {
-    plugins: process.env.NODE_ENV === "production" ? [netlify()] : [],
+    plugins: process.env.NETLIFY === "true" ? [netlify()] : [],
   },
 });
